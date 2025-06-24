@@ -1,8 +1,8 @@
 [gd_scene load_steps=6 format=3 uid="uid://4nqg8237tfvi"]
 
 [ext_resource type="Texture2D" path="res://Door.png" id="1_mk8gj"]
-[ext_resource type="PackedScene" path="res://personaje.tscn" id="2_jx64p"]
-[ext_resource type="PackedScene" path="res://plataforma.tscn" id="3_wmlxa"]
+[ext_resource type="PackedScene" uid="uid://cuwp7dbjntqpj" path="res://personaje.tscn" id="2_jx64p"]
+[ext_resource type="PackedScene" uid="uid://6vwhddxylvyb" path="res://plataforma.tscn" id="3_wmlxa"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_elrdk"]
 size = Vector2(1152, 330.5)
@@ -19,7 +19,7 @@ position = Vector2(576, 487.25)
 shape = SubResource("RectangleShape2D_elrdk")
 
 [node name="door" type="Area2D" parent="."]
-position = Vector2(411, 176)
+position = Vector2(-289, 134)
 
 [node name="Sprite2D" type="Sprite2D" parent="door"]
 position = Vector2(416, -72)
