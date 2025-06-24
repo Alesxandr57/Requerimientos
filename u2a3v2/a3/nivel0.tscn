@@ -1,0 +1,51 @@
+[gd_scene load_steps=6 format=3 uid="uid://d3hy3uk8vrjfc"]
+
+[ext_resource type="Texture2D" uid="uid://dno1bxeli8o5x" path="res://Door.png" id="1_mk8gj"]
+[ext_resource type="PackedScene" uid="uid://cnc60ffuvqs6m" path="res://personaje.tscn" id="2_jx64p"]
+[ext_resource type="PackedScene" uid="uid://biofxf4yqfjwu" path="res://plataforma.tscn" id="3_wmlxa"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_elrdk"]
+size = Vector2(1152, 330.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jx64p"]
+size = Vector2(26, 26)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="reset_area" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="reset_area"]
+position = Vector2(576, 487.25)
+shape = SubResource("RectangleShape2D_elrdk")
+
+[node name="door" type="Area2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="door"]
+position = Vector2(416, -72)
+texture = ExtResource("1_mk8gj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="door"]
+position = Vector2(416, -72)
+shape = SubResource("RectangleShape2D_jx64p")
+
+[node name="Personaje" parent="." instance=ExtResource("2_jx64p")]
+position = Vector2(184, 56)
+
+[node name="Plataforma" parent="." instance=ExtResource("3_wmlxa")]
+position = Vector2(184, 80)
+
+[node name="Plataforma2" parent="." instance=ExtResource("3_wmlxa")]
+position = Vector2(280, 200)
+tipo = 1
+
+[node name="Plataforma3" parent="." instance=ExtResource("3_wmlxa")]
+position = Vector2(288, 96)
+tipo = 2
+
+[node name="Plataforma4" parent="." instance=ExtResource("3_wmlxa")]
+position = Vector2(408, 96)
+tipo = 3
+fuerza_rebote = 1.5
+
+[connection signal="body_entered" from="reset_area" to="Personaje" method="_on_reset_area_body_entered"]
+[connection signal="body_entered" from="door" to="Personaje" method="_on_door_body_entered"]
