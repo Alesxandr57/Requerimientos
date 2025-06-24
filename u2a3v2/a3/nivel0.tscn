@@ -70,10 +70,10 @@ tipo = 3
 fuerza_rebote = 1.5
 
 [node name="Label" type="Label" parent="."]
-offset_left = 545.0
-offset_top = 65.0
-offset_right = 630.0
-offset_bottom = 119.0
+offset_left = 508.0
+offset_top = -2.0
+offset_right = 593.0
+offset_bottom = 52.0
 text = "hola"
 
 [connection signal="body_entered" from="reset_area" to="Personaje" method="_on_reset_area_body_entered"]
