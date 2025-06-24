@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://ccqvx7scr2pn1"]
+[gd_scene load_steps=6 format=3 uid="uid://coh2vb164qwpy"]
 
 [ext_resource type="Texture2D" uid="uid://dno1bxeli8o5x" path="res://Door.png" id="1_hbxap"]
 [ext_resource type="PackedScene" uid="uid://cnc60ffuvqs6m" path="res://personaje.tscn" id="2_cotxi"]
@@ -19,14 +19,14 @@ position = Vector2(576, 487.25)
 shape = SubResource("RectangleShape2D_elrdk")
 
 [node name="door" type="Area2D" parent="."]
-position = Vector2(-283, 139)
+position = Vector2(799, 35)
 
 [node name="Sprite2D" type="Sprite2D" parent="door"]
-position = Vector2(416, -72)
+position = Vector2(469, -134)
 texture = ExtResource("1_hbxap")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="door"]
-position = Vector2(416, -72)
+position = Vector2(467, -132)
 shape = SubResource("RectangleShape2D_jx64p")
 
 [node name="Personaje" parent="." instance=ExtResource("2_cotxi")]

@@ -10,7 +10,7 @@ size = Vector2(1152, 330.5)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_jx64p"]
 size = Vector2(26, 26)
 
-[node name="Node2D" type="Node2D"]
+[node name="Node2D2" type="Node2D"]
 
 [node name="reset_area" type="Area2D" parent="."]
 
@@ -39,7 +39,7 @@ position = Vector2(184, 80)
 position = Vector2(345, 53)
 
 [node name="Plataforma" parent="Plataforma/Plataforma" instance=ExtResource("3_wmlxa")]
-position = Vector2(148, 55)
+position = Vector2(142, 30)
 
 [node name="Plataforma2" parent="." instance=ExtResource("3_wmlxa")]
 position = Vector2(814, 118)
@@ -55,7 +55,7 @@ tipo = 3
 fuerza_rebote = 1.5
 
 [node name="Plataforma5" parent="." instance=ExtResource("3_wmlxa")]
-position = Vector2(671, 137)
+position = Vector2(628, 236)
 tipo = 4
 
 [connection signal="body_entered" from="reset_area" to="Personaje" method="_on_reset_area_body_entered"]
