@@ -14,3 +14,7 @@ config/name="a3"
 run/main_scene="uid://d3hy3uk8vrjfc"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
+
+[dotnet]
+
+project/assembly_name="a3"
