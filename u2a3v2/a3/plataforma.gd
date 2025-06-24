@@ -38,6 +38,8 @@ func _on_body_entered(body: Node2D) -> void:
 					body.puede_rebotar(fuerza_rebote)
 				else:
 					body.velocity.y = body.brinco * fuerza_rebote
+			TipoPlataforma.MUERTE:
+				await get_tree().reload_current_scene()
 	pass # Replace with function body.
 
 func oscilar():
