@@ -35,6 +35,15 @@ position = Vector2(184, 56)
 [node name="Plataforma" parent="." instance=ExtResource("3_wmlxa")]
 position = Vector2(184, 80)
 
+[node name="Plataforma" parent="Plataforma" instance=ExtResource("3_wmlxa")]
+position = Vector2(184, 80)
+
+[node name="Plataforma" parent="Plataforma/Plataforma" instance=ExtResource("3_wmlxa")]
+position = Vector2(184, 80)
+
+[node name="Plataforma" parent="Plataforma/Plataforma/Plataforma" instance=ExtResource("3_wmlxa")]
+position = Vector2(184, 80)
+
 [node name="Plataforma2" parent="." instance=ExtResource("3_wmlxa")]
 position = Vector2(280, 200)
 tipo = 1
