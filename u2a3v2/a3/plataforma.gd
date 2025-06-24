@@ -1,6 +1,6 @@
 extends Area2D
 
-enum TipoPlataforma {FIJA, OSCILATORIA, FRAGIL, REBOTE}
+enum TipoPlataforma {FIJA, OSCILATORIA, FRAGIL, REBOTE, MUERTE}
 @export var tipo: TipoPlataforma = TipoPlataforma.FIJA;
 @export var fuerza_rebote := 2.0
 
@@ -20,6 +20,8 @@ func actualizar_plataforma():
 			$Sprite2D.modulate = Color.RED
 		TipoPlataforma.REBOTE:
 			$Sprite2D.modulate = Color.YELLOW
+		TipoPlataforma.MUERTE:
+			$Sprite2D.modulate = Color.WHITE
 		
 
 
