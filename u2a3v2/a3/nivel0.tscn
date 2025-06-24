@@ -19,14 +19,14 @@ position = Vector2(576, 487.25)
 shape = SubResource("RectangleShape2D_elrdk")
 
 [node name="door" type="Area2D" parent="."]
-position = Vector2(428, 139)
+position = Vector2(377, 138)
 
 [node name="Sprite2D" type="Sprite2D" parent="door"]
-position = Vector2(416, -72)
+position = Vector2(252, -92)
 texture = ExtResource("1_mk8gj")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="door"]
-position = Vector2(416, -72)
+position = Vector2(251, -92)
 shape = SubResource("RectangleShape2D_jx64p")
 
 [node name="Personaje" parent="." instance=ExtResource("2_jx64p")]
@@ -35,14 +35,8 @@ position = Vector2(184, 56)
 [node name="Plataforma" parent="." instance=ExtResource("3_wmlxa")]
 position = Vector2(184, 80)
 
-[node name="Plataforma" parent="Plataforma" instance=ExtResource("3_wmlxa")]
-position = Vector2(345, 53)
-
-[node name="Plataforma" parent="Plataforma/Plataforma" instance=ExtResource("3_wmlxa")]
-position = Vector2(142, 30)
-
 [node name="Plataforma2" parent="." instance=ExtResource("3_wmlxa")]
-position = Vector2(814, 118)
+position = Vector2(549, 124)
 tipo = 1
 
 [node name="Plataforma3" parent="." instance=ExtResource("3_wmlxa")]
@@ -55,7 +49,7 @@ tipo = 3
 fuerza_rebote = 1.5
 
 [node name="Plataforma5" parent="." instance=ExtResource("3_wmlxa")]
-position = Vector2(628, 236)
+position = Vector2(820, 122)
 tipo = 4
 
 [connection signal="body_entered" from="reset_area" to="Personaje" method="_on_reset_area_body_entered"]
