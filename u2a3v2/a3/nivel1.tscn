@@ -19,7 +19,7 @@ position = Vector2(576, 487.25)
 shape = SubResource("RectangleShape2D_elrdk")
 
 [node name="door" type="Area2D" parent="."]
-position = Vector2(799, 35)
+position = Vector2(617, 391)
 
 [node name="Sprite2D" type="Sprite2D" parent="door"]
 position = Vector2(469, -134)
@@ -30,23 +30,77 @@ position = Vector2(467, -132)
 shape = SubResource("RectangleShape2D_jx64p")
 
 [node name="Personaje" parent="." instance=ExtResource("2_cotxi")]
-position = Vector2(185, 45)
+position = Vector2(74, -450)
 
 [node name="Plataforma" parent="." instance=ExtResource("3_57bpn")]
-position = Vector2(184, 80)
+position = Vector2(73, -430)
 
 [node name="Plataforma2" parent="." instance=ExtResource("3_57bpn")]
-position = Vector2(280, 200)
+position = Vector2(567, -276)
 tipo = 1
 
 [node name="Plataforma3" parent="." instance=ExtResource("3_57bpn")]
-position = Vector2(288, 96)
+position = Vector2(464, -424)
 tipo = 2
 
 [node name="Plataforma4" parent="." instance=ExtResource("3_57bpn")]
-position = Vector2(408, 96)
+position = Vector2(238, -424)
 tipo = 3
 fuerza_rebote = 1.5
+
+[node name="Plataforma5" parent="." instance=ExtResource("3_57bpn")]
+position = Vector2(190, -259)
+tipo = 4
+
+[node name="Plataforma6" parent="." instance=ExtResource("3_57bpn")]
+position = Vector2(401, -219)
+
+[node name="Plataforma7" parent="." instance=ExtResource("3_57bpn")]
+position = Vector2(1085, 293)
+
+[node name="Plataforma8" parent="." instance=ExtResource("3_57bpn")]
+position = Vector2(699, 229)
+tipo = 2
+
+[node name="Plataforma9" parent="." instance=ExtResource("3_57bpn")]
+position = Vector2(395, -50)
+tipo = 1
+
+[node name="Plataforma10" parent="." instance=ExtResource("3_57bpn")]
+position = Vector2(625, -55)
+tipo = 3
+
+[node name="Plataforma11" parent="." instance=ExtResource("3_57bpn")]
+position = Vector2(1070, 126)
+tipo = 3
+
+[node name="Plataforma12" parent="." instance=ExtResource("3_57bpn")]
+position = Vector2(405, 200)
+tipo = 4
+
+[node name="Plataforma13" parent="." instance=ExtResource("3_57bpn")]
+position = Vector2(813, 83)
+tipo = 4
+
+[node name="Plataforma14" parent="." instance=ExtResource("3_57bpn")]
+position = Vector2(162, 130)
+tipo = 2
+
+[node name="Plataforma15" parent="." instance=ExtResource("3_57bpn")]
+position = Vector2(939, 243)
+tipo = 2
+
+[node name="Plataforma16" parent="." instance=ExtResource("3_57bpn")]
+position = Vector2(826, -131)
+tipo = 2
+
+[node name="Plataforma17" parent="." instance=ExtResource("3_57bpn")]
+position = Vector2(756, -324)
+tipo = 3
+
+[node name="Plataforma18" parent="." instance=ExtResource("3_57bpn")]
+position = Vector2(171, -79)
+tipo = 2
 
 [connection signal="body_entered" from="reset_area" to="Personaje" method="_on_reset_area_body_entered"]
 [connection signal="body_entered" from="door" to="Personaje" method="_on_door_body_entered"]
