@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://bxcsvqk4qck4f"]
+
+[ext_resource type="Texture2D" uid="uid://d3vuh833klp7v" path="res://Moneda.png" id="1_k7ceu"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_k7ceu"]
+
+[node name="Moneda" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D"]
+position = Vector2(-42.1875, -44.1875)
+scale = Vector2(0.06, 0.054)
+texture = ExtResource("1_k7ceu")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(-43, -45)
+shape = SubResource("CircleShape2D_k7ceu")
