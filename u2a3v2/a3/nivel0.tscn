@@ -1,5 +1,6 @@
-[gd_scene load_steps=7 format=3 uid="uid://d3hy3uk8vrjfc"]
+[gd_scene load_steps=8 format=3 uid="uid://d3hy3uk8vrjfc"]
 
+[ext_resource type="Script" uid="uid://cu1neecsw73vm" path="res://nivel_0.gd" id="1_hjuvm"]
 [ext_resource type="Texture2D" uid="uid://dno1bxeli8o5x" path="res://Door.png" id="1_mk8gj"]
 [ext_resource type="PackedScene" uid="uid://cnc60ffuvqs6m" path="res://personaje.tscn" id="2_jx64p"]
 [ext_resource type="PackedScene" uid="uid://biofxf4yqfjwu" path="res://plataforma.tscn" id="3_wmlxa"]
@@ -12,6 +13,7 @@ size = Vector2(1152, 330.5)
 size = Vector2(26, 26)
 
 [node name="Node2D2" type="Node2D"]
+script = ExtResource("1_hjuvm")
 
 [node name="reset_area" type="Area2D" parent="."]
 
