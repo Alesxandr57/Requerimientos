@@ -56,5 +56,14 @@ tipo = 4
 [node name="Area2D" parent="." instance=ExtResource("4_wmlxa")]
 position = Vector2(256, 41)
 
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="PuntosLabel" type="Label" parent="UI"]
+offset_left = 15.0
+offset_top = 9.0
+offset_right = 87.0
+offset_bottom = 32.0
+text = "Puntos: 0"
+
 [connection signal="body_entered" from="reset_area" to="Personaje" method="_on_reset_area_body_entered"]
 [connection signal="body_entered" from="door" to="Personaje" method="_on_door_body_entered"]
