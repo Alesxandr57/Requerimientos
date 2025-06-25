@@ -53,8 +53,8 @@ fuerza_rebote = 1.5
 position = Vector2(542, 55)
 tipo = 4
 
-[node name="Moneda" parent="." instance=ExtResource("4_wmlxa")]
-position = Vector2(297, 82)
+[node name="Area2D" parent="." instance=ExtResource("4_wmlxa")]
+position = Vector2(256, 41)
 
 [connection signal="body_entered" from="reset_area" to="Personaje" method="_on_reset_area_body_entered"]
 [connection signal="body_entered" from="door" to="Personaje" method="_on_door_body_entered"]
