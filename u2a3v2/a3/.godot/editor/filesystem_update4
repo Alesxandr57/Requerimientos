@@ -1,8 +1,7 @@
-res://personaje.gd
-res://Moneda.tscn
-res://nivel0.tscn
 res://personaje.tscn
+res://nivel_0.gd
+res://personaje.gd
+res://nivel0.tscn
 res://plataforma.tscn
 res://nivel1.tscn
-res://moneda.gd
-res://nivel_0.gd
+res://Moneda.tscn

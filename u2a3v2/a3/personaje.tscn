@@ -20,3 +20,9 @@ hframes = 6
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(2, 2)
+
+[node name="MensajeLabel" type="Label" parent="."]
+offset_left = -22.0
+offset_top = -31.0
+offset_right = 22.0
+offset_bottom = -8.0

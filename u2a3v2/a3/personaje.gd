@@ -3,6 +3,7 @@ extends CharacterBody2D
 var velocidad = 200
 var brinco = -400
 var gravedad = 1000
+@onready var mensaje_label = $MensajeLabel
 
 func _ready():
 	add_to_group("jugador")
@@ -26,4 +27,17 @@ func _on_reset_area_body_entered(body: Node2D) -> void:
 
 
 func _on_door_body_entered(body: Node2D) -> void:
-	get_tree().change_scene_to_file("nivel1.tscn")
+	if get_parent().has_method("obtener_puntos"):
+		var puntos_actuales = get_parent().obtener_puntos()
+		if puntos_actuales >= 1000:
+			get_tree().change_scene_to_file("nivel1.tscn")
+		else:
+			mostrar_mensaje("No tienes el suficiente puntuaje de 1000 para pasar de nivel")
+			
+func mostrar_mensaje(texto):
+	mensaje_label.text = texto
+	mensaje_label.visible = true
+	await get_tree().create_timer(2.0).timeout
+	mensaje_label.visible = false
+	
+	

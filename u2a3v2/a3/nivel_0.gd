@@ -10,3 +10,6 @@ func _ready():
 func _on_moneda_recolectada():
 	puntos += 200
 	puntos_label.text = "Puntos: %d" % puntos
+
+func obtener_puntos():
+	return puntos

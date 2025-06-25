@@ -22,7 +22,7 @@ position = Vector2(576, 487.25)
 shape = SubResource("RectangleShape2D_elrdk")
 
 [node name="door" type="Area2D" parent="."]
-position = Vector2(513, 126)
+position = Vector2(465, 132)
 
 [node name="Sprite2D" type="Sprite2D" parent="door"]
 position = Vector2(252, -92)
