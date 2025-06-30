@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://cpmehkoyerhvb"]
+
+[ext_resource type="PackedScene" uid="uid://biofxf4yqfjwu" path="res://plataforma.tscn" id="1_by4l0"]
+[ext_resource type="PackedScene" uid="uid://cnc60ffuvqs6m" path="res://personaje.tscn" id="2_nwga7"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+offset_right = 103.0
+offset_bottom = 49.0
+text = "Ganaste Felicidades"
+
+[node name="Plataforma" parent="." instance=ExtResource("1_by4l0")]
+position = Vector2(97, 117)
+
+[node name="Personaje" parent="." instance=ExtResource("2_nwga7")]
+position = Vector2(96, 93)

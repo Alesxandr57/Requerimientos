@@ -5,3 +5,6 @@ res://nivel1.tscn
 res://Moneda.tscn
 res://plataforma.gd
 res://nivel_1.gd
+res://personaje.gd
+res://nivel3.tscn
+res://nivel2.tscn

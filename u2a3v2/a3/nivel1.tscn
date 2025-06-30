@@ -22,7 +22,7 @@ position = Vector2(489.5, 487.25)
 shape = SubResource("RectangleShape2D_elrdk")
 
 [node name="door" type="Area2D" parent="."]
-position = Vector2(617, 391)
+position = Vector2(542, 375)
 
 [node name="Sprite2D" type="Sprite2D" parent="door"]
 position = Vector2(469, -134)
@@ -59,30 +59,29 @@ tipo = 4
 position = Vector2(401, -219)
 
 [node name="Plataforma7" parent="." instance=ExtResource("3_57bpn")]
-position = Vector2(1085, 293)
+position = Vector2(1001, 276)
 
 [node name="Plataforma8" parent="." instance=ExtResource("3_57bpn")]
 position = Vector2(699, 229)
-tipo = 2
 
 [node name="Plataforma9" parent="." instance=ExtResource("3_57bpn")]
 position = Vector2(395, -50)
 tipo = 1
 
 [node name="Plataforma10" parent="." instance=ExtResource("3_57bpn")]
-position = Vector2(625, -55)
+position = Vector2(547, -39)
 tipo = 3
 
 [node name="Plataforma11" parent="." instance=ExtResource("3_57bpn")]
-position = Vector2(1070, 126)
+position = Vector2(1098, 124)
 tipo = 3
 
 [node name="Plataforma12" parent="." instance=ExtResource("3_57bpn")]
-position = Vector2(405, 200)
-tipo = 4
+position = Vector2(717, 32)
+tipo = 3
 
 [node name="Plataforma13" parent="." instance=ExtResource("3_57bpn")]
-position = Vector2(813, 83)
+position = Vector2(388, 186)
 tipo = 4
 
 [node name="Plataforma14" parent="." instance=ExtResource("3_57bpn")]
@@ -90,7 +89,7 @@ position = Vector2(162, 130)
 tipo = 2
 
 [node name="Plataforma15" parent="." instance=ExtResource("3_57bpn")]
-position = Vector2(939, 243)
+position = Vector2(866, 217)
 tipo = 2
 
 [node name="Plataforma16" parent="." instance=ExtResource("3_57bpn")]
@@ -98,7 +97,7 @@ position = Vector2(826, -131)
 tipo = 2
 
 [node name="Plataforma17" parent="." instance=ExtResource("3_57bpn")]
-position = Vector2(756, -324)
+position = Vector2(940, 32)
 tipo = 3
 
 [node name="Plataforma18" parent="." instance=ExtResource("3_57bpn")]
@@ -106,28 +105,28 @@ position = Vector2(171, -79)
 tipo = 2
 
 [node name="Moneda" parent="." instance=ExtResource("4_cotxi")]
-position = Vector2(170, -134)
+position = Vector2(165, -513)
 
 [node name="Moneda2" parent="." instance=ExtResource("4_cotxi")]
-position = Vector2(394, -90)
+position = Vector2(1091, 75)
 
 [node name="Moneda4" parent="." instance=ExtResource("4_cotxi")]
-position = Vector2(173, -495)
+position = Vector2(397, -257)
 
 [node name="Moneda5" parent="." instance=ExtResource("4_cotxi")]
-position = Vector2(468, -460)
+position = Vector2(657, -187)
 
 [node name="Moneda6" parent="." instance=ExtResource("4_cotxi")]
-position = Vector2(826, -171)
+position = Vector2(158, 85)
 
 [node name="Moneda3" parent="." instance=ExtResource("4_cotxi")]
-position = Vector2(938, 195)
+position = Vector2(859, 163)
 
 [node name="Moneda7" parent="." instance=ExtResource("4_cotxi")]
-position = Vector2(747, -370)
+position = Vector2(465, -476)
 
 [node name="Moneda8" parent="." instance=ExtResource("4_cotxi")]
-position = Vector2(542, 153)
+position = Vector2(542, 103)
 
 [node name="UI" type="CanvasLayer" parent="."]
 

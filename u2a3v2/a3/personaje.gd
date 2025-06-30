@@ -29,8 +29,16 @@ func _on_reset_area_body_entered(body: Node2D) -> void:
 func _on_door_body_entered(body: Node2D) -> void:
 	if get_parent().has_method("obtener_puntos"):
 		var puntos_actuales = get_parent().obtener_puntos()
+
 		if puntos_actuales >= 1000:
-			get_tree().change_scene_to_file("nivel1.tscn")
+			var ruta = get_tree().current_scene.scene_file_path
+			match ruta:
+				"res://nivel0.tscn":
+					get_tree().change_scene_to_file("res://nivel1.tscn")
+				"res://nivel1.tscn":
+					get_tree().change_scene_to_file("res://nivel2.tscn")
+				_:
+					mostrar_mensaje("No hay escena configurada para continuar.")
 		else:
 			mostrar_mensaje("No tienes el suficiente puntuaje de 1000 para pasar de nivel")
 			
