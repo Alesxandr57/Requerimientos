@@ -7,7 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://bxcsvqk4qck4f" path="res://Moneda.tscn" id="4_wmlxa"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_elrdk"]
-size = Vector2(1152, 330.5)
+size = Vector2(1960, 330.5)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_jx64p"]
 size = Vector2(26, 26)
@@ -18,7 +18,7 @@ script = ExtResource("1_hjuvm")
 [node name="reset_area" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="reset_area"]
-position = Vector2(576, 487.25)
+position = Vector2(586, 487.25)
 shape = SubResource("RectangleShape2D_elrdk")
 
 [node name="door" type="Area2D" parent="."]
@@ -55,6 +55,7 @@ position = Vector2(545, 78)
 
 [node name="Plataforma6" parent="." instance=ExtResource("3_wmlxa")]
 position = Vector2(256, 196)
+tipo = 2
 
 [node name="Plataforma7" parent="." instance=ExtResource("3_wmlxa")]
 position = Vector2(950, -212)
@@ -65,6 +66,7 @@ tipo = 3
 
 [node name="Plataforma9" parent="." instance=ExtResource("3_wmlxa")]
 position = Vector2(741, -36)
+tipo = 2
 
 [node name="Plataforma10" parent="." instance=ExtResource("3_wmlxa")]
 position = Vector2(251, -122)
@@ -86,6 +88,7 @@ position = Vector2(332, -52)
 
 [node name="Plataforma15" parent="." instance=ExtResource("3_wmlxa")]
 position = Vector2(67, -249)
+tipo = 2
 
 [node name="Plataforma16" parent="." instance=ExtResource("3_wmlxa")]
 position = Vector2(1060, -259)
@@ -129,9 +132,10 @@ position = Vector2(1105, -307)
 [node name="PuntosLabel" type="Label" parent="UI"]
 offset_left = 15.0
 offset_top = 9.0
-offset_right = 87.0
-offset_bottom = 32.0
-text = "Puntos: 0"
+offset_right = 200.0
+offset_bottom = 81.0
+text = "Puntos: 0
+"
 
 [connection signal="body_entered" from="reset_area" to="Personaje" method="_on_reset_area_body_entered"]
 [connection signal="body_entered" from="door" to="Personaje" method="_on_door_body_entered"]
