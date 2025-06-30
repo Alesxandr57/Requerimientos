@@ -22,7 +22,7 @@ position = Vector2(576, 487.25)
 shape = SubResource("RectangleShape2D_elrdk")
 
 [node name="door" type="Area2D" parent="."]
-position = Vector2(465, 132)
+position = Vector2(973, -206)
 
 [node name="Sprite2D" type="Sprite2D" parent="door"]
 position = Vector2(252, -92)
@@ -33,18 +33,17 @@ position = Vector2(251, -92)
 shape = SubResource("RectangleShape2D_jx64p")
 
 [node name="Personaje" parent="." instance=ExtResource("2_jx64p")]
-position = Vector2(184, 56)
+position = Vector2(57, 253)
 
 [node name="Plataforma" parent="." instance=ExtResource("3_wmlxa")]
-position = Vector2(184, 80)
+position = Vector2(60, 285)
 
 [node name="Plataforma2" parent="." instance=ExtResource("3_wmlxa")]
-position = Vector2(663, 114)
+position = Vector2(642, 18)
 tipo = 1
 
 [node name="Plataforma3" parent="." instance=ExtResource("3_wmlxa")]
-position = Vector2(316, 89)
-tipo = 2
+position = Vector2(430, 17)
 
 [node name="Plataforma4" parent="." instance=ExtResource("3_wmlxa")]
 position = Vector2(418, 159)
@@ -52,11 +51,78 @@ tipo = 3
 fuerza_rebote = 1.5
 
 [node name="Plataforma5" parent="." instance=ExtResource("3_wmlxa")]
-position = Vector2(542, 55)
+position = Vector2(545, 78)
+
+[node name="Plataforma6" parent="." instance=ExtResource("3_wmlxa")]
+position = Vector2(256, 196)
+
+[node name="Plataforma7" parent="." instance=ExtResource("3_wmlxa")]
+position = Vector2(950, -212)
+
+[node name="Plataforma8" parent="." instance=ExtResource("3_wmlxa")]
+position = Vector2(852, -98)
+tipo = 3
+
+[node name="Plataforma9" parent="." instance=ExtResource("3_wmlxa")]
+position = Vector2(741, -36)
+
+[node name="Plataforma10" parent="." instance=ExtResource("3_wmlxa")]
+position = Vector2(251, -122)
+tipo = 3
+
+[node name="Plataforma11" parent="." instance=ExtResource("3_wmlxa")]
+position = Vector2(153, -197)
+
+[node name="Plataforma12" parent="." instance=ExtResource("3_wmlxa")]
+position = Vector2(344, -276)
 tipo = 4
 
+[node name="Plataforma13" parent="." instance=ExtResource("3_wmlxa")]
+position = Vector2(161, 272)
+tipo = 3
+
+[node name="Plataforma14" parent="." instance=ExtResource("3_wmlxa")]
+position = Vector2(332, -52)
+
+[node name="Plataforma15" parent="." instance=ExtResource("3_wmlxa")]
+position = Vector2(67, -249)
+
+[node name="Plataforma16" parent="." instance=ExtResource("3_wmlxa")]
+position = Vector2(1060, -259)
+tipo = 1
+
+[node name="Plataforma17" parent="." instance=ExtResource("3_wmlxa")]
+position = Vector2(421, -280)
+tipo = 1
+
+[node name="Plataforma18" parent="." instance=ExtResource("3_wmlxa")]
+position = Vector2(632, -287)
+tipo = 1
+
+[node name="Plataforma19" parent="." instance=ExtResource("3_wmlxa")]
+position = Vector2(804, -287)
+tipo = 2
+
 [node name="Area2D" parent="." instance=ExtResource("4_wmlxa")]
-position = Vector2(256, 41)
+position = Vector2(391, -133)
+
+[node name="Moneda" parent="." instance=ExtResource("4_wmlxa")]
+position = Vector2(538, 15)
+
+[node name="Moneda2" parent="." instance=ExtResource("4_wmlxa")]
+position = Vector2(388, -357)
+
+[node name="Moneda3" parent="." instance=ExtResource("4_wmlxa")]
+position = Vector2(743, -114)
+
+[node name="Moneda4" parent="." instance=ExtResource("4_wmlxa")]
+position = Vector2(133, -340)
+
+[node name="Moneda5" parent="." instance=ExtResource("4_wmlxa")]
+position = Vector2(104, 133)
+
+[node name="Moneda6" parent="." instance=ExtResource("4_wmlxa")]
+position = Vector2(1105, -307)
 
 [node name="UI" type="CanvasLayer" parent="."]
 
