@@ -1,21 +1,24 @@
-[gd_scene load_steps=6 format=3 uid="uid://coh2vb164qwpy"]
+[gd_scene load_steps=8 format=3 uid="uid://coh2vb164qwpy"]
 
+[ext_resource type="Script" uid="uid://dsgikeaf2gxpv" path="res://nivel_1.gd" id="1_57bpn"]
 [ext_resource type="Texture2D" uid="uid://dno1bxeli8o5x" path="res://Door.png" id="1_hbxap"]
 [ext_resource type="PackedScene" uid="uid://cnc60ffuvqs6m" path="res://personaje.tscn" id="2_cotxi"]
 [ext_resource type="PackedScene" uid="uid://biofxf4yqfjwu" path="res://plataforma.tscn" id="3_57bpn"]
+[ext_resource type="PackedScene" uid="uid://bxcsvqk4qck4f" path="res://Moneda.tscn" id="4_cotxi"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_elrdk"]
-size = Vector2(1152, 330.5)
+size = Vector2(1693, 330.5)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_jx64p"]
 size = Vector2(26, 26)
 
 [node name="Node2D" type="Node2D"]
+script = ExtResource("1_57bpn")
 
 [node name="reset_area" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="reset_area"]
-position = Vector2(576, 487.25)
+position = Vector2(489.5, 487.25)
 shape = SubResource("RectangleShape2D_elrdk")
 
 [node name="door" type="Area2D" parent="."]
@@ -101,6 +104,39 @@ tipo = 3
 [node name="Plataforma18" parent="." instance=ExtResource("3_57bpn")]
 position = Vector2(171, -79)
 tipo = 2
+
+[node name="Moneda" parent="." instance=ExtResource("4_cotxi")]
+position = Vector2(170, -134)
+
+[node name="Moneda2" parent="." instance=ExtResource("4_cotxi")]
+position = Vector2(394, -90)
+
+[node name="Moneda4" parent="." instance=ExtResource("4_cotxi")]
+position = Vector2(173, -495)
+
+[node name="Moneda5" parent="." instance=ExtResource("4_cotxi")]
+position = Vector2(468, -460)
+
+[node name="Moneda6" parent="." instance=ExtResource("4_cotxi")]
+position = Vector2(826, -171)
+
+[node name="Moneda3" parent="." instance=ExtResource("4_cotxi")]
+position = Vector2(938, 195)
+
+[node name="Moneda7" parent="." instance=ExtResource("4_cotxi")]
+position = Vector2(747, -370)
+
+[node name="Moneda8" parent="." instance=ExtResource("4_cotxi")]
+position = Vector2(542, 153)
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="PuntosLabel" type="Label" parent="UI"]
+offset_left = 20.0
+offset_top = 5.0
+offset_right = 92.0
+offset_bottom = 28.0
+text = "Puntos: 0"
 
 [connection signal="body_entered" from="reset_area" to="Personaje" method="_on_reset_area_body_entered"]
 [connection signal="body_entered" from="door" to="Personaje" method="_on_door_body_entered"]
