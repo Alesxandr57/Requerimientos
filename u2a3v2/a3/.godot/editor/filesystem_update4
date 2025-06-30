@@ -3,3 +3,5 @@ res://personaje.tscn
 res://plataforma.tscn
 res://nivel1.tscn
 res://Moneda.tscn
+res://plataforma.gd
+res://personaje.gd

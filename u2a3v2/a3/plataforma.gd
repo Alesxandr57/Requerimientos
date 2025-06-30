@@ -23,8 +23,6 @@ func actualizar_plataforma():
 		TipoPlataforma.MUERTE:
 			$Sprite2D.modulate = Color.WHITE
 		
-
-
 func _on_body_entered(body: Node2D) -> void:
 	if body.is_in_group("jugador"):
 		
@@ -44,10 +42,6 @@ func _on_body_entered(body: Node2D) -> void:
 
 func oscilar():
 	var tween = create_tween()
-	tween.tween_property(self,"position:x",position.x + 100,2)
-	tween.tween_property(self,"position:x",position.x - 100,2)
+	tween.tween_property(self, "position:x", position.x + 100,2)
+	tween.tween_property(self, "position:x", position.x - 100,2)
 	tween.set_loops()
-	
-	
-	
-	
