@@ -1,5 +1,6 @@
 A3
 Nombre del juego:
+
 Integrantes:
 Ahumada Vizcarra Eudaldo Alejandro
 Avalos Miramontes Alexis Gabriel
