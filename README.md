@@ -1,5 +1,5 @@
 A3
-Nombre del juego:
+Nombre del juego: 
 
 Integrantes:
 Ahumada Vizcarra Eudaldo Alejandro
