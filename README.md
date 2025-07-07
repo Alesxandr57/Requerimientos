@@ -128,7 +128,7 @@ func obtener_puntos():
 ### personaje.gd
 **-** Este script pertenece a un nodo CharacterBody2D, que representa al jugador principal. Se encarga de su movimiento, salto, gravedad, interacción con zonas de reseteo y puertas, así como de mostrar mensajes en pantalla. Funciona en varios niveles (nivel0, nivel1, etc.).
 
-Sus funciones principales son:
+Sus funciones principales son:  
 🔴 Mover al jugador horizontalmente y permitirle saltar.  
 🔴 Aplicar gravedad cuando no está en el suelo.  
 🔴 Reiniciar el nivel si entra en una zona de reseteo.  
@@ -195,7 +195,7 @@ func mostrar_mensaje(texto):
 ### plataforma.gd
 **-** Este script pertenece a un nodo Area2D que actúa como una plataforma interactiva en el juego. La plataforma puede tener distintos comportamientos dependiendo del tipo que se le asigne por medio de un enum (enumeración).
 
-Los tipos de plataforma definidos son:
+Los tipos de plataforma definidos son:  
 🔴 FIJA: No hace nada especial.  
 🔴 OSCILATORIA: Se mueve horizontalmente de forma continua.  
 🔴 FRÁGIL: Se destruye 0.5 segundos después de que el jugador la pisa.  
