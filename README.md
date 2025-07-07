@@ -1,13 +1,13 @@
 <div align="center">
-<h1><strong>A3</strong></h1>
+<h1><strong>ღ¸.🌸´`🌸.¸¸ღ - A3 - ღ¸.🌸´`🌸.¸¸ღ</strong></h1>
 
-<h2><strong>Ahumada Vizcarra Eudaldo Alejandro</strong></h2>
-<h2><strong>Avalos Miramontes Alexis Gabriel</strong></h2>
+<h2><strong>ʚ🌹ɞ Ahumada Vizcarra Eudaldo Alejandro ʚ🌹ɞ</strong></h2>
+<h2><strong>ʚ🌹ɞ Avalos Miramontes Alexis Gabriel ʚ🌹ɞ</strong></h2>
 </div>
 
 ●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●
 <div align="center">
-<h2><strong>Descripcion del juego y sus mecanicas</strong></h2>
+<h2><strong> ⭐Descripcion del juego y sus mecanicas⭐</strong></h2>
 </div>
 
 A3 es un juego de plataformas que consta de 2 niveles, donde requeriras pasar por diferentes obstaculos hechos de 5 tipos de diferentes plataformnas entre ellas (Fija, Oscilatoria, Muerte Instantanea, Rebote y Temporal), donde tambien deberas recolectar monedas aumentando tu personaje para asi poder lograr pasar al siguiente nivel, pero cuidado si llegas a caer al vacio o tocar una plataforma de muerte instantanea tendras que reiniciar el nivel en donde estes, cosa que no sera tan facil como parece, mantente en las plataformas con vida, recoge las suficientes monedas para elevar el porcentaje y vuelvete digno de llegar a la meta.
@@ -16,7 +16,7 @@ A3 es un juego de plataformas que consta de 2 niveles, donde requeriras pasar po
 
 ●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●
 <div align="center">
-<h2><strong>Descripcion de los recursos usados de manera de lista</strong></h2>
+<h2><strong>⭐Descripcion de los recursos usados de manera de lista⭐</strong></h2>
 </div> 
 
 ### Recursos en Escenas
@@ -29,7 +29,7 @@ A3 es un juego de plataformas que consta de 2 niveles, donde requeriras pasar po
 
 ●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●
 <div align="center">
-<h2><strong>Descripcion de cada escena</strong></h2>
+<h2><strong>⭐Descripcion de cada escena⭐</strong></h2>
 </div>
 
 ### 🔹Escena nivel0
@@ -54,10 +54,10 @@ A3 es un juego de plataformas que consta de 2 niveles, donde requeriras pasar po
 
 ●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●
 <div align="center">
-<h2><strong>Descripcion de los codigos empleados para el funcionamiento</strong></h2>
+<h2><strong>⭐Descripcion de los codigos empleados para el funcionamiento⭐</strong></h2>
 </div>
 
-### moneda.gd
+### 🦋moneda.gd
 **-** Este script está diseñado para un nodo Area2D que representa una moneda u objeto recolectable en un juego. Su función principal es detectar cuándo el jugador (que pertenece al grupo "jugador") entra en contacto con esta área. Al hacerlo:
 
   🔴 Emite una señal personalizada llamada moneda_recolectada, que puede ser utilizada por otros nodos para saber que una moneda fue recolectada.  
@@ -87,7 +87,7 @@ func _on_body_entered(body):
 
 
 
-### nivel_0.gd **y** nivel_1.gd
+### 🦋nivel_0.gd **y** nivel_1.gd
 **-** Este script se aplica a un nodo Node2D, que probablemente representa un nivel completo (Nivel0, Nivel1, etc.). Su función principal es:
 
   🔴 Inicializar un contador de puntos (puntos = 0).  
@@ -125,7 +125,7 @@ func obtener_puntos():
 
 
 
-### personaje.gd
+### 🦋personaje.gd
 **-** Este script pertenece a un nodo CharacterBody2D, que representa al jugador principal. Se encarga de su movimiento, salto, gravedad, interacción con zonas de reseteo y puertas, así como de mostrar mensajes en pantalla. Funciona en varios niveles (nivel0, nivel1, etc.).
 
 Sus funciones principales son:  
@@ -192,7 +192,7 @@ func mostrar_mensaje(texto):
 
 
 
-### plataforma.gd
+### 🦋plataforma.gd
 **-** Este script pertenece a un nodo Area2D que actúa como una plataforma interactiva en el juego. La plataforma puede tener distintos comportamientos dependiendo del tipo que se le asigne por medio de un enum (enumeración).
 
 Los tipos de plataforma definidos son:  
@@ -266,7 +266,7 @@ func oscilar():
 
 ●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●
 <div align="center">
-<h2><strong>Dificultad por integrante las dificultades que se tuvieron al usar herraminetas colabrativas</strong></h2>
+<h2><strong>⭐Dificultad por integrante las dificultades que se tuvieron al usar herraminetas colabrativas⭐</strong></h2>
 </div>
 
 ### Dificultades de Eudaldo
@@ -278,7 +278,7 @@ func oscilar():
 
 ●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●
 <div align="center">
-<h2><strong>Conclucion del uso e importancoa de las herramientas colaborativas</strong></h2>
+<h2><strong>⭐Conclucion del uso e importancoa de las herramientas colaborativas⭐</strong></h2>
 </div>
 
 **-** Las herramientas colaborativas son fundamentales para el programador moderno, ya que permiten trabajar en equipo de forma eficiente, mantener el control de versiones, compartir avances en tiempo real y asegurar la integración continua del código. Facilitan la organización, reducen errores y mejoran la productividad, siendo esenciales en proyectos tanto pequeños como de gran escala.
