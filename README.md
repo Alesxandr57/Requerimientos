@@ -1,17 +1,23 @@
-# ***A3***
+<div align="center">
+<h1><strong>A3</strong></h1>
 
-## ***Ahumada Vizcarra Eudaldo Alejandro***
-## ***Avalos Miramontes Alexis Gabriel***  
+<h2><strong>Ahumada Vizcarra Eudaldo Alejandro</strong></h2>
+<h2><strong>Avalos Miramontes Alexis Gabriel</strong></h2>
+</div>
 
-●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～
-## Descripcion del juego y sus mecanicas
+●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●
+<div align="center">
+<h2><strong>Descripcion del juego y sus mecanicas</strong></h2>
+</div>
 
 A3 es un juego de plataformas que consta de 2 niveles, donde requeriras pasar por diferentes obstaculos hechos de 5 tipos de diferentes plataformnas entre ellas (Fija, Oscilatoria, Muerte Instantanea, Rebote y Temporal), donde tambien deberas recolectar monedas aumentando tu personaje para asi poder lograr pasar al siguiente nivel, pero cuidado si llegas a caer al vacio o tocar una plataforma de muerte instantanea tendras que reiniciar el nivel en donde estes, cosa que no sera tan facil como parece, mantente en las plataformas con vida, recoge las suficientes monedas para elevar el porcentaje y vuelvete digno de llegar a la meta.
 
 
 
-●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～
-## Descripcion de los recursos usados de manera de lista 
+●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●
+<div align="center">
+<h2><strong>Descripcion de los recursos usados de manera de lista</strong></h2>
+</div> 
 
 ### Recursos en Escenas
 **1.** Door.png (Sprite de una puerta)  
@@ -21,8 +27,10 @@ A3 es un juego de plataformas que consta de 2 niveles, donde requeriras pasar po
 
 
 
-●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～
-## Descripcion de cada escena
+●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●
+<div align="center">
+<h2><strong>Descripcion de cada escena</strong></h2>
+</div>
 
 ### Escena nivel0
 **-** Es el primero nivel donde apareces al inciar el juego, nivel que costa de 5 diferentes plataformas (Fija, Oscilatoria, Muerte Instantanea, Rebote y Temporal), donde la razon de este nivel es ir subiendo recogiendo monedas hasta llegar a la puerta, cada moneda vale 200 puntos, por lo cual necesitas de 1000 puntos (5 monedas), para poder pasar al siguiente nivel.
@@ -44,8 +52,10 @@ A3 es un juego de plataformas que consta de 2 niveles, donde requeriras pasar po
 
 
 
-●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～
-## Descripcion de los codigos empleados para el funcionamiento
+●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●
+<div align="center">
+<h2><strong>Descripcion de los codigos empleados para el funcionamiento</strong></h2>
+</div>
 
 ### moneda.gd
 **-** Este script está diseñado para un nodo Area2D que representa una moneda u objeto recolectable en un juego. Su función principal es detectar cuándo el jugador (que pertenece al grupo "jugador") entra en contacto con esta área. Al hacerlo:
@@ -54,7 +64,7 @@ A3 es un juego de plataformas que consta de 2 niveles, donde requeriras pasar po
   🔴 Se elimina a sí mismo del juego (queue_free()), simulando que la moneda fue recogida.  
 
 **ˏˋ°•*⁀➷ˏˋ°•*⁀➷ˏˋ°•*⁀➷ˏˋ°•*⁀➷ˏˋ°•*⁀➷**
-
+```
 extends Area2D  # Este script se aplica a un nodo tipo Area2D (por ejemplo, una moneda)
 
 signal moneda_recolectada  # Se define una señal personalizada que se emitirá al recolectar la moneda
@@ -70,10 +80,12 @@ func _on_body_entered(body):
 		emit_signal("moneda_recolectada")
 		# Luego elimina el nodo (la moneda desaparece del juego)
 		queue_free()
-
+```
 **ˏˋ°•*⁀➷ˏˋ°•*⁀➷ˏˋ°•*⁀➷ˏˋ°•*⁀➷ˏˋ°•*⁀➷**
 
 ■━■━■━■■━■━■━■■━■━■━■■━■━■━■■━■━■━■■━■━■━■■━■━■━■■━■━■━■■━■━■━■
+
+
 
 ### nivel_0.gd **y** nivel_1.gd
 **-** Este script se aplica a un nodo Node2D, que probablemente representa un nivel completo (Nivel0, Nivel1, etc.). Su función principal es:
@@ -85,7 +97,7 @@ func _on_body_entered(body):
   
 
 **ˏˋ°•*⁀➷ˏˋ°•*⁀➷ˏˋ°•*⁀➷ˏˋ°•*⁀➷ˏˋ°•*⁀➷**
-
+```
 extends Node2D  # Este script se aplica a un nodo tipo Node2D, como un nivel del juego
 
 var puntos = 0  # Variable para almacenar el puntaje acumulado del jugador
@@ -106,17 +118,161 @@ func _on_moneda_recolectada():
 func obtener_puntos():
 	# Función para devolver el puntaje actual (puede ser usado por otros scripts)
 	return puntos
+```
+**ˏˋ°•*⁀➷ˏˋ°•*⁀➷ˏˋ°•*⁀➷ˏˋ°•*⁀➷ˏˋ°•*⁀➷**
 
+■━■━■━■■━■━■━■■━■━■━■■━■━■━■■━■━■━■■━■━■━■■━■━■━■■━■━■━■■━■━■━■
+
+
+
+### personaje.gd
+**-** Este script pertenece a un nodo CharacterBody2D, que representa al jugador principal. Se encarga de su movimiento, salto, gravedad, interacción con zonas de reseteo y puertas, así como de mostrar mensajes en pantalla. Funciona en varios niveles (nivel0, nivel1, etc.).
+
+Sus funciones principales son:
+🔴 Mover al jugador horizontalmente y permitirle saltar.  
+🔴 Aplicar gravedad cuando no está en el suelo.  
+🔴 Reiniciar el nivel si entra en una zona de reseteo.  
+🔴 Cambiar de nivel al llegar a una puerta si tiene al menos 1000 puntos.  
+🔴 Mostrar mensajes temporales si no cumple con los requisitos para avanzar o si no hay más niveles.  
+
+
+**ˏˋ°•*⁀➷ˏˋ°•*⁀➷ˏˋ°•*⁀➷ˏˋ°•*⁀➷ˏˋ°•*⁀➷**
+```
+extends CharacterBody2D  # Este script se aplica al jugador que se puede mover y saltar
+
+var velocidad = 200       # Velocidad de movimiento horizontal
+var brinco = -400         # Fuerza del salto (negativa para subir)
+var gravedad = 1000       # Valor de la gravedad aplicada cuando está en el aire
+
+@onready var mensaje_label = $MensajeLabel  # Referencia al nodo que muestra mensajes en pantalla
+
+func _ready():
+	add_to_group("jugador")  # Agrega al jugador al grupo "jugador" (importante para colisiones y señales)
+
+func _physics_process(delta):
+	var direccion = Input.get_axis("ui_left","ui_right")  # Captura movimiento izquierda/derecha
+	velocity.x = direccion * velocidad  # Aplica la velocidad según la dirección
+	
+	if not is_on_floor():
+		velocity.y += gravedad * delta  # Aplica gravedad si está en el aire
+	
+	if Input.is_action_just_pressed("ui_up") and is_on_floor():
+		velocity.y = brinco  # Realiza el salto si está en el suelo
+	
+	move_and_slide()  # Aplica el movimiento con deslizamiento (maneja colisiones)
+
+func _on_reset_area_body_entered(body: Node2D) -> void:
+	get_tree().reload_current_scene()  # Reinicia la escena si entra en un área de reseteo
+
+func _on_door_body_entered(body: Node2D) -> void:
+	if get_parent().has_method("obtener_puntos"):
+		var puntos_actuales = get_parent().obtener_puntos()  # Obtiene los puntos del nivel actual
+
+		if puntos_actuales >= 1000:
+			var ruta = get_tree().current_scene.scene_file_path  # Detecta el nivel actual
+			match ruta:
+				"res://nivel0.tscn":
+					get_tree().change_scene_to_file("res://nivel1.tscn")  # Cambia a nivel 1
+				"res://nivel1.tscn":
+					get_tree().change_scene_to_file("res://nivel2.tscn")  # Cambia a nivel 2
+				_:
+					mostrar_mensaje("No hay escena configurada para continuar.")  # Si no hay más escenas
+		else:
+			mostrar_mensaje("No tienes el suficiente puntuaje de 1000 para pasar de nivel")  # No cumple puntos
+
+func mostrar_mensaje(texto):
+	mensaje_label.text = texto  # Muestra el texto en pantalla
+	mensaje_label.visible = true  # Hace visible el mensaje
+	await get_tree().create_timer(2.0).timeout  # Espera 2 segundos
+	mensaje_label.visible = false  # Oculta el mensaje
+```
+**ˏˋ°•*⁀➷ˏˋ°•*⁀➷ˏˋ°•*⁀➷ˏˋ°•*⁀➷ˏˋ°•*⁀➷**
+
+■━■━■━■■━■━■━■■━■━■━■■━■━■━■■━■━■━■■━■━■━■■━■━■━■■━■━■━■■━■━■━■
+
+
+
+### plataforma.gd
+**-** Este script pertenece a un nodo Area2D que actúa como una plataforma interactiva en el juego. La plataforma puede tener distintos comportamientos dependiendo del tipo que se le asigne por medio de un enum (enumeración).
+
+Los tipos de plataforma definidos son:
+🔴 FIJA: No hace nada especial.  
+🔴 OSCILATORIA: Se mueve horizontalmente de forma continua.  
+🔴 FRÁGIL: Se destruye 0.5 segundos después de que el jugador la pisa.  
+🔴 REBOTE: Hace rebotar al jugador con una fuerza multiplicada.  
+🔴 MUERTE: Reinicia el nivel si el jugador la toca.  
+
+
+**ˏˋ°•*⁀➷ˏˋ°•*⁀➷ˏˋ°•*⁀➷ˏˋ°•*⁀➷ˏˋ°•*⁀➷**
+```
+extends Area2D  # Este script se aplica a una plataforma basada en Area2D
+
+# Enum que define los distintos tipos de plataforma
+enum TipoPlataforma {FIJA, OSCILATORIA, FRAGIL, REBOTE, MUERTE}
+
+# Exporta el tipo de plataforma para que se pueda seleccionar desde el editor
+@export var tipo: TipoPlataforma = TipoPlataforma.FIJA
+
+# Exporta la fuerza de rebote (solo usada si es una plataforma de tipo REBOTE)
+@export var fuerza_rebote := 2.0
+
+func _ready():
+	actualizar_plataforma()  # Configura el comportamiento inicial según el tipo
+	monitorable = true       # Permite detectar colisiones con cuerpos
+	monitoring = true        # Habilita el monitoreo del área
+
+func actualizar_plataforma():
+	match tipo:
+		TipoPlataforma.FIJA:
+			$Sprite2D.modulate = Color.GREEN  # Color verde
+		TipoPlataforma.OSCILATORIA:
+			$Sprite2D.modulate = Color.BLUE   # Color azul
+			oscilar()                         # Inicia movimiento oscilatorio
+		TipoPlataforma.FRAGIL:
+			$Sprite2D.modulate = Color.RED    # Color rojo
+		TipoPlataforma.REBOTE:
+			$Sprite2D.modulate = Color.YELLOW # Color amarillo
+		TipoPlataforma.MUERTE:
+			$Sprite2D.modulate = Color.WHITE  # Color blanco
+
+func _on_body_entered(body: Node2D) -> void:
+	if body.is_in_group("jugador"):  # Solo actúa si el cuerpo es el jugador
+		match tipo:
+
+			TipoPlataforma.FRAGIL:
+				await get_tree().create_timer(0.5).timeout  # Espera medio segundo
+				queue_free()  # Destruye la plataforma
+
+			TipoPlataforma.REBOTE:
+				if body.has_method("puede_rebotar"):
+					body.puede_rebotar(fuerza_rebote)  # Llama a función personalizada si existe
+				else:
+					body.velocity.y = body.brinco * fuerza_rebote  # Si no, aplica rebote manualmente
+
+			TipoPlataforma.MUERTE:
+				await get_tree().reload_current_scene()  # Reinicia el nivel actual
+
+	pass  # (Instrucción vacía por si no hay match válido)
+
+func oscilar():
+	var tween = create_tween()
+	tween.tween_property(self, "position:x", position.x + 100, 2)  # Se mueve a la derecha
+	tween.tween_property(self, "position:x", position.x - 100, 2)  # Luego a la izquierda
+	tween.set_loops()  # Se repite infinitamente
+```
 **ˏˋ°•*⁀➷ˏˋ°•*⁀➷ˏˋ°•*⁀➷ˏˋ°•*⁀➷ˏˋ°•*⁀➷**
 
 
 
+●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●
+<div align="center">
+<h2><strong>Dificultad por integrante las dificultades que se tuvieron al usar herraminetas colabrativas</strong></h2>
+</div>
 
 
-●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～
-## Dificultad por integrante las dificultades que se tuvieron al usar herraminetas colabrativas
 
+●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●
+<div align="center">
+<h2><strong>Conclucion del uso e importancoa de las heeramintas colaborativas</strong></h2>
+</div>
 
-
-●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～
-## Conclucion del uso e importancoa de las heeramintas colaborativas
