@@ -269,10 +269,16 @@ func oscilar():
 <h2><strong>Dificultad por integrante las dificultades que se tuvieron al usar herraminetas colabrativas</strong></h2>
 </div>
 
+### Dificultades de Eudaldo
+**-** En lo personal aprender sobre como usar github tanto como visual estudio code a la par, para poder trabajar de forma colaborativa junto con alexis fue todo un reto, a pesar de las varias explicaciones que se nos dio, tuvimos mucho retraso a la hora de la elaboración del proyecto y que no sabiamos como hacer comits al inicio, despues de ahi aprendimos pero varias veces borramos el juego o haciamos algo mal que terminaba en un desastre, ya que intentabamos trabajar en la misma rama primaria de una forma rara, lo que nos llevo a retrasarnos varios dias aprendiendo a como hacerlo bien, fue ahi cuando una tarde me puse a hacer prueba y error con otra laptop en mi cada, y poder descubrir como hacerlo bien.  
+
+### Dificultades de Alexis
+**-** TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS,TEXTO DE ALEXIS, TEXTO DE ALEXIS,
 
 
 ●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●
 <div align="center">
-<h2><strong>Conclucion del uso e importancoa de las heeramintas colaborativas</strong></h2>
+<h2><strong>Conclucion del uso e importancoa de las herramientas colaborativas</strong></h2>
 </div>
 
+**-** Las herramientas colaborativas son fundamentales para el programador moderno, ya que permiten trabajar en equipo de forma eficiente, mantener el control de versiones, compartir avances en tiempo real y asegurar la integración continua del código. Facilitan la organización, reducen errores y mejoran la productividad, siendo esenciales en proyectos tanto pequeños como de gran escala.
