@@ -278,7 +278,7 @@ func oscilar():
 
 ●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●
 <div align="center">
-<h2><strong>⭐Conclucion del uso e importancoa de las herramientas colaborativas⭐</strong></h2>
+<h2><strong>⭐Conclucion del uso e importancia de las herramientas colaborativas⭐</strong></h2>
 </div>
 
 **-** Las herramientas colaborativas son fundamentales para el programador moderno, ya que permiten trabajar en equipo de forma eficiente, mantener el control de versiones, compartir avances en tiempo real y asegurar la integración continua del código. Facilitan la organización, reducen errores y mejoran la productividad, siendo esenciales en proyectos tanto pequeños como de gran escala.
