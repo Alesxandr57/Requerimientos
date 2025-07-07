@@ -5,7 +5,7 @@
 <h2><strong>Avalos Miramontes Alexis Gabriel</strong></h2>
 </div>
 
-●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●
+●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●
 <div align="center">
 <h2><strong>Descripcion del juego y sus mecanicas</strong></h2>
 </div>
@@ -14,7 +14,7 @@ A3 es un juego de plataformas que consta de 2 niveles, donde requeriras pasar po
 
 
 
-●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●
+●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●
 <div align="center">
 <h2><strong>Descripcion de los recursos usados de manera de lista</strong></h2>
 </div> 
@@ -27,7 +27,7 @@ A3 es un juego de plataformas que consta de 2 niveles, donde requeriras pasar po
 
 
 
-●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●
+●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●
 <div align="center">
 <h2><strong>Descripcion de cada escena</strong></h2>
 </div>
@@ -52,7 +52,7 @@ A3 es un juego de plataformas que consta de 2 niveles, donde requeriras pasar po
 
 
 
-●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●
+●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●
 <div align="center">
 <h2><strong>Descripcion de los codigos empleados para el funcionamiento</strong></h2>
 </div>
@@ -264,7 +264,7 @@ func oscilar():
 
 
 
-●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●
+●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●
 <div align="center">
 <h2><strong>Dificultad por integrante las dificultades que se tuvieron al usar herraminetas colabrativas</strong></h2>
 </div>
@@ -276,7 +276,7 @@ func oscilar():
 **-** TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS, TEXTO DE ALEXIS,TEXTO DE ALEXIS, TEXTO DE ALEXIS,
 
 
-●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●
+●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●
 <div align="center">
 <h2><strong>Conclucion del uso e importancoa de las herramientas colaborativas</strong></h2>
 </div>
