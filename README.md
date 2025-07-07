@@ -32,22 +32,22 @@ A3 es un juego de plataformas que consta de 2 niveles, donde requeriras pasar po
 <h2><strong>Descripcion de cada escena</strong></h2>
 </div>
 
-### Escena nivel0
+### 🔹Escena nivel0
 **-** Es el primero nivel donde apareces al inciar el juego, nivel que costa de 5 diferentes plataformas (Fija, Oscilatoria, Muerte Instantanea, Rebote y Temporal), donde la razon de este nivel es ir subiendo recogiendo monedas hasta llegar a la puerta, cada moneda vale 200 puntos, por lo cual necesitas de 1000 puntos (5 monedas), para poder pasar al siguiente nivel.
 
-### Escena nivel1
+### 🔹Escena nivel1
 **-** Este nivel a diferencia del 0, es practicamente la misma dinamica pero ir bajando hasta llegar a la puerta consiguiendo antes los 1000 puntos para ganar, por consecuencia el nivel0 es subir y el nivel1 es bajar.
 
-### Escena nivel2
+### 🔹Escena nivel2
 **-** Este nivel es un nivel donde apareces en una plataforma fija al lograr pasar el nivel1, y tendras un mensaje de "Ganaste Felicidades", y es donde termina el juego, no hay que hacer nada mas.
 
-### Escena personaje
+### 🔹Escena personaje
 **-** Esta escena donde tenemos a nuestro personaje principal del juego, es donde fue recreado dandole sus propiedades (CharacterBody2D, CollisionShape2D, Sprite2D, Camera2D y un Label), y es integrado en los 3 niveles anteriores.
 
-### Escena plataforma
+### 🔹Escena plataforma
 **-** En esta escena tenemos la realizacion de la plataforma base que derivara en sus 5 tipos (Fija, Oscilatoria, Muerte Instantanea, Rebote y Temporal), dandole tambien sus propiedades (Area2D, CollisionShape2D, Sprite2D, StaticBody2D), donde el StaticBody2D tiene como nodo hijo otro CollisionShape2D y es integrado en los 3 niveles anteriores.
 
-### Escena Moneda
+### 🔹Escena Moneda
 **-** Es esta escena tenemos nuestra Moneda base donde fue recredada para incluirla en las escenas del nivel0 y nivel1, tieniendo propiedades como (Area2D, Sprite2D y CollisionShape2D), y son incluidas en varias partes de los niveles (0 y 1), para darle vida al sistema de puntuaje del juego.
 
 
