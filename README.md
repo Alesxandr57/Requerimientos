@@ -27,7 +27,7 @@ A3 es un juego de plataformas que consta de 2 niveles, donde requeriras pasar po
 
 
 
-●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●
+●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●～●
 <div align="center">
 <h2><strong>Descripcion de cada escena</strong></h2>
 </div>
