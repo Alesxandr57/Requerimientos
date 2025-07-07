@@ -35,20 +35,38 @@ A3 es un juego de plataformas que consta de 2 niveles, donde requeriras pasar po
 ### 🔹Escena nivel0
 **-** Es el primero nivel donde apareces al inciar el juego, nivel que costa de 5 diferentes plataformas (Fija, Oscilatoria, Muerte Instantanea, Rebote y Temporal), donde la razon de este nivel es ir subiendo recogiendo monedas hasta llegar a la puerta, cada moneda vale 200 puntos, por lo cual necesitas de 1000 puntos (5 monedas), para poder pasar al siguiente nivel.
 
+![image](https://github.com/user-attachments/assets/35ad1ce8-231f-48bd-8f43-01f691573362)
+
+
 ### 🔹Escena nivel1
 **-** Este nivel a diferencia del 0, es practicamente la misma dinamica pero ir bajando hasta llegar a la puerta consiguiendo antes los 1000 puntos para ganar, por consecuencia el nivel0 es subir y el nivel1 es bajar.
+
+![image](https://github.com/user-attachments/assets/f3ae08a9-a9c1-44a3-8275-d062e0cb342a)
+
 
 ### 🔹Escena nivel2
 **-** Este nivel es un nivel donde apareces en una plataforma fija al lograr pasar el nivel1, y tendras un mensaje de "Ganaste Felicidades", y es donde termina el juego, no hay que hacer nada mas.
 
+![image](https://github.com/user-attachments/assets/ec1cb7ee-ece1-4c43-8b40-16272ca2d040)
+
+
 ### 🔹Escena personaje
 **-** Esta escena donde tenemos a nuestro personaje principal del juego, es donde fue recreado dandole sus propiedades (CharacterBody2D, CollisionShape2D, Sprite2D, Camera2D y un Label), y es integrado en los 3 niveles anteriores.
+
+![image](https://github.com/user-attachments/assets/460de565-4b49-416a-a0ff-f55727de3cda)
+
 
 ### 🔹Escena plataforma
 **-** En esta escena tenemos la realizacion de la plataforma base que derivara en sus 5 tipos (Fija, Oscilatoria, Muerte Instantanea, Rebote y Temporal), dandole tambien sus propiedades (Area2D, CollisionShape2D, Sprite2D, StaticBody2D), donde el StaticBody2D tiene como nodo hijo otro CollisionShape2D y es integrado en los 3 niveles anteriores.
 
+![image](https://github.com/user-attachments/assets/b0b6efb4-b230-4170-be62-efbc6ec0d7a8)
+
+
 ### 🔹Escena Moneda
 **-** Es esta escena tenemos nuestra Moneda base donde fue recredada para incluirla en las escenas del nivel0 y nivel1, tieniendo propiedades como (Area2D, Sprite2D y CollisionShape2D), y son incluidas en varias partes de los niveles (0 y 1), para darle vida al sistema de puntuaje del juego.
+
+![image](https://github.com/user-attachments/assets/8334d809-c12f-4ef1-b092-59264ced62d0)
+
 
 
 
